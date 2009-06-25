@@ -1,0 +1,210 @@
+	/*--------------------------------------------------------------------------------------------------
+Full d'estil CSS
+--------------------------------------------------------------------------------------------------*/
+body
+{
+	font-size: 82.5%;
+	background: #000 url(../images/fons-plantilla-baix.jpg) 0 0 no-repeat;
+	color: #2F4F4F;
+	line-height: 1.3em;
+}
+ 
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: arial, verdana, sans-serif;
+	border: none;
+}
+
+:focus
+{
+	outline: none;
+}
+
+/* Tipografia
+--------------------------------------------------------------------------------------------------*/
+hr
+{
+	display: none;
+}
+.important
+{
+	color: #fff;
+}
+p
+{
+	/* text-align: justify; */
+	margin-bottom: 15px;
+}
+a:link,
+a:visited
+{
+	text-decoration: underline;
+	color: #2F4F4F;
+}
+a:hover,
+a:active
+{
+	text-decoration: none;
+	color: #fff;
+}
+h1
+{
+	text-indent: -999em;
+	height: 237px;
+	width: 900px;
+	background: url(../images/logogosponomics2.png) 0 0 no-repeat;
+	margin-top: 15px;
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+h3
+{
+	font-size: 1em;
+}
+ul
+{
+	list-style: none;
+}
+dt
+{
+	color: #fff;
+}
+dd
+{
+	margin-bottom: 15px;
+}
+small
+{
+	display: block;
+	font-size: 11px;
+	border-bottom: 1px solid #222;
+	margin: 2px 0;
+	padding: 0 0 3px 0;
+}
+/* Maquetació
+--------------------------------------------------------------------------------------------------*/
+
+#document
+{
+	margin: auto auto auto auto;
+	width: 950px;
+	height: 950px;
+	background: url(../images/background.png) repeat;
+}
+
+.cblock
+{
+	border-bottom: 1px dotted #ffffff;
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+}
+
+.cblock.mainbox
+{
+	margin-top: 70px;
+}
+
+.contingut
+{
+	float: left;
+	width: 280px;
+	margin-right: 25px;
+}
+
+#proteccio-fons
+{
+	margin: 0px 0px 0px 0px;
+	background: url(../images/transparent.png) 0 0 repeat;
+}
+
+
+.wide.contingut
+{
+	float: left;
+	width: 600px;
+	margin: 0;
+}
+
+.wide.contingut p
+{
+	color: #fff;
+}
+
+.contingut-dreta
+{
+	float: left;
+	width: 280px;
+}
+.contingut-esquerra
+{
+	float: left;
+	width: 280px;
+	margin-left: 50px;
+}
+
+.contingut-imatge,
+.project-image
+{
+	border: 1px solid #171718;
+}
+
+.project-image
+{
+	margin-bottom: 10px;
+}
+
+.peu-pagina,
+.peu-pagina a
+{
+	color: #FF4500;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+/*Títols
+--------------------------------------------------------------------------------------------------*/
+
+h4
+{
+	height: 11px;
+	width: 185px;
+	text-indent: -999em;
+	background: 0 0 no-repeat;
+	margin-bottom: 15px;
+}
+
+h4.contactinformation
+{
+	background: url(../images/bg-title-contactinformation.gif);
+}
+
+h4.resume /* not in use */
+{
+	background: url(../images/bg-title-resume.gif);
+}
+
+h4.workingfor
+{
+	background: url(../images/bg-title-workingfor.gif);
+}
+
+h4.publications
+{
+	background: url(../images/bg-title-publications.gif);
+}
+
+h4.projects
+{
+	background: url(../images/bg-title-projects.gif);
+}
+
+/* Helper
+--------------------------------------------------------------------------------------------------*/
+
+.clear
+{
+	clear: both;
+}
+
